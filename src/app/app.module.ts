@@ -12,13 +12,13 @@ const appRoutes = [
   {
     path: 'customers',
     component: CustomersComponent,
-    loadChildren: './manage-services/manage-services.module#CustomersModule',
+    loadChildren: './customers/customers.module#CustomersModule',
     data: { preload: true }
   },
   {
     path: 'orders',
     component: OrdersComponent,
-    loadChildren: './manage-checklist/manage-checklist.module#OrdersModule',
+    loadChildren: './orders/orders.module#OrdersModule',
     data: { preload: true }
 
   },
